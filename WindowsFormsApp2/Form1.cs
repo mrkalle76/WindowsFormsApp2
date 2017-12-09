@@ -11,7 +11,7 @@ using System.IO;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 
-
+//Comments
 namespace WindowsFormsApp2
 {
     public partial class Form1 : Form
@@ -45,7 +45,6 @@ namespace WindowsFormsApp2
             string[] row = new string[] { filePath, movietitle, filePath };
             dataGridView1.Rows.Add(row);
             dataGridView1.Refresh();
-
         }
 
         private string GetMKVTitle(string filePath)
